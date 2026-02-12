@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* 基本スタイル */  
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa; /* 薄いグレーの背景 */  
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            color: #333;
+        }   
+
+        /* コンテンツのレイアウト */  
+        .container {
+            text-align: center;
+            padding: 20px;
+            /* 上下左右の適切な余白を確保 */  
+            max-width: 90%;
+        }   
+
+        /* 社名（1行目） */  
+        .company-name {
+            font-size: 1.2rem;
+            letter-spacing: 0.2em;
+            color: #666;
+            margin-bottom: 1rem;
+            display: block;
+        }   
+
+        /* Coming Soon（2行目） */  
+        .coming-soon {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin: 0;
+            background: linear-gradient(45deg, #333, #777);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }   
+
+        /* レスポンシブ調整：スマホ表示 */  
+        @media (max-width: 600px) {
+            .company-name {
+                font-size: 1rem;
+            }   
+            .coming-soon {
+                font-size: 2.2rem;
+            }   
+        }   
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="company-name">アセンディアアジア株式会社 | ASCENDIA ASIA Inc.</span>
+        <h1 class="coming-soon">Coming Soon</h1>
+    </div>
+
+</body>
+</html>
